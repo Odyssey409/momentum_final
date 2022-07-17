@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css\style.css" />
+    <title>Momentum App</title>
+  </head>
+  <body>
+    <div id="topBox">
+      <div id="blackBox"></div>
+      <h1 id="myName" class="text">Odyssey409</h1>
+      <div id="rightTopBox1"><div id="rightTopBox1_element1"></div></div>
+      <div id="rightTopBox2"><div id="rightTopBox2_element1"></div></div>
+      <div id="rightTopBox3">
+        <div id="rightTopBox3_element1"></div>
+        <div id="rightTopBox3_element2"></div>
+      </div>
+    </div>
+
+    <div id="whiteBox">
+      <div id="leftBox">
+        <div id="nameBox">
+          <img
+            class="hidden"
+            id="heartIcon"
+            src="icon\KakaoTalk_20220717_030340638.png"
+          />
+          <form class="hidden" id="login-form">
+            <img id="humanIcon" src="icon\KakaoTalk_20220717_030318040.png" />
+
+            <input
+              class="text"
+              id="nameInput"
+              required
+              maxlength="15"
+              type="text"
+              placeholder="Please write your name"
+            />
+            <input class="text hidden" type="submit" value="Log In" />
+          </form>
+          <h1 id="greeting" class="hidden text"></h1>
+        </div>
+        <div id="weatherBox">
+          <span id="todayWeather" class="text">TODAY'S WEATHER</span>
+
+          <div id="weatherImgContainer1">
+            <img class="weatherImg" src="icon\location.png" />
+          </div>
+          <div id="weatherImgContainer2">
+            <img class="weatherImg" src="icon\weather.png" />
+          </div>
+          <div id="weatherImgContainer3">
+            <img class="weatherImg" src="icon\celsius.png" />
+          </div>
+          <div id="weatherImgContainer4">
+            <img class="weatherImg" src="icon\humidity.png" />
+          </div>
+          <div id="weatherImgContainer5">
+            <img class="weatherImg" src="icon\wind.png" />
+          </div>
+          <div id="weatherImgContainer6">
+            <img class="weatherImg" src="icon\pressure.png" />
+          </div>
+
+          <div id="weather" class="text">
+            <span class="weatherContent"></span>
+            <span class="weatherContent"></span>
+            <span class="weatherContent"></span>
+            <span class="weatherContent"></span>
+            <span class="weatherContent"></span>
+            <span class="weatherContent"></span>
+          </div>
+        </div>
+        <div id="clockBox"><h2 id="clock" class="text">00:00</h2></div>
+      </div>
+      <div class="verticalLine" id="leftLine"></div>
+      <div id="quote">
+        <span id="quoteContent" class="text"></span>
+        <span id="quoteAuthor" class="text"></span>
+      </div>
+      <div class="verticalLine" id="rightLine"></div>
+      <div id="todoBox">
+        <div id="bluebox"></div>
+        <form id="todo-form">
+          <input
+            id="todoFormInput"
+            class="text"
+            type="text"
+            placeholder="Write a To Do and Press Enter"
+            required
+          />
+        </form>
+        <div id="notepad"></div>
+        <span id="todoTitle" class="text">TO DO LIST</span>
+        <ul id="todo-list" class="text"></ul>
+      </div>
+    </div>
+
+    <script src="js\clock.js"></script>
+    <script src="js\greetings.js"></script>
+    <script src="js\quotes.js"></script>
+    <script src="js\background.js"></script>
+    <script src="js\todo.js"></script>
+    <script src="js\weather.js"></script>
+  </body>
+</html>

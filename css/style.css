@@ -1,0 +1,507 @@
+.hidden {
+  display: none;
+}
+
+.text {
+  font-family: "NeoDunggeunmo";
+  font-style: normal;
+}
+
+body {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #bcc7dd;
+  border: 2px solid #5b4d4d;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+
+  width: 98vw;
+  height: 96vh;
+}
+
+/* .backgroundImg {
+  background-size: cover;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+} */
+
+.backgroundImg {
+  display: flex;
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.3);
+  margin-left: 33vw;
+  margin-top: 20vh;
+}
+
+#blackBox {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  left: 17px;
+  top: 10px;
+
+  background: #5b4d4d;
+  border: 2px solid #5b4d4d;
+}
+
+#myName {
+  position: absolute;
+  width: 108px;
+  height: 33px;
+  left: 62px;
+  top: -8px;
+
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+
+  color: #5b4d4d;
+}
+
+#rightTopBox1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  right: 130px;
+  top: 10px;
+  border: 2px solid #5b4d4d;
+}
+
+#rightTopBox2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  right: 80px;
+  top: 10px;
+
+  border: 2px solid #5b4d4d;
+}
+
+#rightTopBox3 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  right: 30px;
+  top: 10px;
+
+  border: 2px solid #5b4d4d;
+}
+
+#rightTopBox1_element1 {
+  position: absolute;
+  width: 17px;
+  height: 0px;
+  right: 6px;
+  top: 25px;
+
+  border: 2px solid #5b4d4d;
+}
+
+#rightTopBox2_element1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 24px;
+  height: 25px;
+  right: 4px;
+  top: 5px;
+
+  border: 2px solid #5b4d4d;
+}
+
+#rightTopBox3_element1 {
+  position: absolute;
+  width: 40px;
+  height: 0px;
+  right: -4px;
+  top: 15px;
+
+  border: 2px solid #5b4d4d;
+  transform: rotate(-45deg);
+}
+#rightTopBox3_element2 {
+  position: absolute;
+  width: 40px;
+  height: 0px;
+  right: -6px;
+  top: 15px;
+
+  border: 2px solid #5b4d4d;
+  transform: rotate(45deg);
+}
+
+#topBox {
+  box-sizing: border-box;
+  position: absolute;
+  background-color: #fbd5d4;
+  width: 96vw;
+  height: 60px;
+  left: 10px;
+  right: 10px;
+  top: 16px;
+  border: 2px solid #5b4d4d;
+}
+
+#leftBox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 68vh;
+  left: 35px;
+  top: 25px;
+  background: #fce3cd;
+  border: 2px solid #5b4d4d;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+}
+
+#whiteBox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 96vw;
+  height: 75vh;
+  left: 10px;
+  top: 107px;
+  background: #ffffff;
+  border: 2px solid #5b4d4d;
+}
+
+#nameBox {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 280px;
+  height: 50px;
+  left: 12px;
+  top: 15px;
+
+  background: #fdfcf8;
+  border: 2px solid #5b4d4d;
+  border-radius: 15px;
+}
+
+#greeting {
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 50px;
+}
+
+#humanIcon {
+  width: 30px;
+  height: 30px;
+  margin-top: 6px;
+  margin-left: 8px;
+}
+
+#nameInput {
+  position: absolute;
+  white-space: normal;
+  word-break: normal;
+  width: 230px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  font-size: 19px;
+  top: 8px;
+  right: -2px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#heartIcon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.verticalLine {
+  box-sizing: border-box;
+  position: absolute;
+  width: 34.5vw;
+  height: 0px;
+
+  border: 2px solid #5b4d4d;
+  transform: rotate(-90deg);
+}
+
+#leftLine {
+  left: 11.4vw;
+  top: 37vh;
+}
+
+#quoteContent {
+  position: absolute;
+  width: 30vw;
+  height: 90px;
+  left: 37vw;
+  top: 53vh;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #5b4d4d;
+}
+
+#quoteAuthor {
+  position: absolute;
+  width: 30vw;
+  height: 90px;
+  left: 47vw;
+  top: 64vh;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #8f766f;
+}
+
+#rightLine {
+  right: 6vw;
+  top: 37vh;
+}
+
+#todo-form {
+  box-sizing: border-box;
+  position: absolute;
+  width: 18vw;
+  height: 7.5vh;
+  right: 15px;
+  top: 30px;
+  border: 2px solid #5b4d4d;
+}
+
+#todoFormInput {
+  position: fixed;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+  width: 16vw;
+  margin-top: 5px;
+}
+
+#bluebox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 3vw;
+  height: 7.5vh;
+  right: 19vw;
+  top: 30px;
+  background: #bcc7dd;
+  border: 2px solid #5b4d4d;
+}
+
+#notepad {
+  position: absolute;
+  background-color: #d1d2dc;
+  width: 20.7vw;
+  height: 57vh;
+  right: 1.2vw;
+  top: 15vh;
+  box-shadow: inset 5px 5px 4px rgba(91, 77, 77, 0.25);
+}
+
+#todoTitle {
+  position: absolute;
+  width: 20vw;
+  height: 54px;
+  right: -4vw;
+  top: 15vh;
+  font-weight: 200;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #5b4d4d;
+}
+
+#todo-list {
+  display: flexbox;
+  position: absolute;
+  width: 18vw;
+  height: 5vh;
+  right: 2.2vw;
+  top: 19vh;
+  line-height: 1vh;
+}
+
+.todoText {
+  font-size: 15px;
+  line-height: 4vh;
+
+  white-space: no-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.todoLi {
+  display: flex;
+  justify-content: space-between;
+  white-space: no-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-bottom: 3px dashed black;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.todoButton {
+  display: flexbox;
+  float: inline-end;
+  justify-self: self-end;
+  align-self: flex-end;
+  background: transparent;
+  text-align: end;
+  border: none;
+  font-size: 20px;
+}
+
+#weatherBox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 21.2vw;
+  height: 36vh;
+  left: 15px;
+  top: 80px;
+  background: #fdfcf8;
+  border: 2px solid #5b4d4d;
+  border-radius: 13px;
+}
+
+#weather {
+  box-sizing: border-box;
+  position: absolute;
+  left: 7.2vw;
+  top: 6.7vh;
+}
+
+.weatherContent {
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#todayWeather {
+  position: absolute;
+  width: 15vw;
+  left: 4.2vw;
+  top: 1vh;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #5b4d4d;
+}
+
+.weatherImg {
+  position: absolute;
+  display: flex;
+  width: 15px;
+  height: 15px;
+}
+
+#weatherImgContainer1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+#weatherImgContainer2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: 70px;
+  margin-left: 60px;
+}
+#weatherImgContainer3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+#weatherImgContainer4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: 130px;
+  margin-left: 60px;
+}
+#weatherImgContainer5 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: 160px;
+  margin-left: 60px;
+}
+#weatherImgContainer6 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: 190px;
+  margin-left: 60px;
+}
+
+#clockBox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 21.2vw;
+  height: 13vh;
+  left: 15px;
+  top: 320px;
+  background: #fdfcf8;
+  border: 2px solid #5b4d4d;
+  border-radius: 13px;
+}
+
+#clock {
+  position: absolute;
+  width: 10vw;
+  left: 3vw;
+  top: -26px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #5b4d4d;
+}
