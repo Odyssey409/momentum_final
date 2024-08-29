@@ -391,7 +391,7 @@ input:focus {
 #weatherBox {
   box-sizing: border-box;
   position: absolute;
-  width: 21.2vw;
+  width: 270px;
   height: 36vh;
   left: 15px;
   top: 80px;
